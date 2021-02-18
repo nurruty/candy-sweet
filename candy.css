@@ -4,7 +4,8 @@ body {
 
 .Candy-map img {
   width: auto;
-  height: 800px;
+  height: 900px;
+  margin-top: 40px;
   object-fit: cover;
 }
 
@@ -15,7 +16,7 @@ body {
 
 .Candy header {
   margin: auto;
-  background-color: rgb(195, 229, 233);
+  background-color: rgb(177, 233, 253);
 }
 
 .Candy label {
@@ -42,7 +43,13 @@ body {
 }
 
 .header-about {
-  height: 80px;
+  height: 110px;
+}
+
+.header-about > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(0, 48, 151);
 }
 
 .header-img {
@@ -70,6 +77,10 @@ body {
 }
 
 .header-menu > .focus {
+  font-weight: 800;
+}
+
+.header-about > .focus {
   font-weight: 800;
 }
 
@@ -103,6 +114,12 @@ body {
   position: relative;
   margin-right: 7px;
   top: 5px;
+}
+
+.title-footer {
+  font-size: 12pt;
+  font-weight: bold;
+  color: white;
 }
 
 .text {
@@ -230,7 +247,7 @@ body {
 }
 
 .footer-title {
-  font-size: 16pt;
+  font-size: 13pt;
   font-weight: bold;
   color: white;
   margin-bottom: 0;
@@ -243,8 +260,16 @@ body {
   text-decoration: none;
 }
 
+.footer-icon > em {
+  font-size: 24pt;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
 .fa {
   padding-right: 5px;
+  width: 50px;
 }
 
 .arrow-prod {
@@ -255,4 +280,52 @@ body {
 
 .line {
   border-bottom: 1px solid rgb(0, 48, 151);
+}
+
+.lead {
+  font-weight: 500;
+}
+
+.sub-line {
+  position: relative;
+  margin-bottom: 40px;
+}
+.sub-line::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 5px;
+  background: rgb(30, 192, 202);
+  width: 63px;
+  left: 42.8%;
+  top: -8px;
+}
+
+.sub-line-1 {
+  position: relative;
+  margin-bottom: 40px;
+}
+.sub-line-1::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 5px;
+  background: rgb(30, 192, 202);
+  width: 63px;
+  left: 44%;
+  top: -8px;
+}
+
+.sub-line-2 {
+  position: relative;
+}
+.sub-line-2::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 5px;
+  background: rgb(30, 192, 202);
+  width: 63px;
+  left: 35.8%;
+  top: -8px;
 }
